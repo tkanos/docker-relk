@@ -32,3 +32,8 @@ It's done now you can see the container created :
 ```
 $ docker ps -a
 ```
+
+#Purpose
+
+I want to send my logs to redis. And then a logstash (thanks to the logstash/logstash-indexer.conf configuration) will take them from redis to send to Elasticsearch. So I will be able to visualize them on Kibana.
+
